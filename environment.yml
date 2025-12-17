@@ -1,0 +1,23 @@
+name: microbial-genomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - fastqc
+  - multiqc
+  - cutadapt
+  - seqtk
+  - pigz
+  - unicycler
+  - spades
+  - bwa
+  - samtools
+  - quast
+  - prokka
+  - pandas
+  - matplotlib
+  - seaborn
